@@ -18,5 +18,5 @@ fi
 git add .
 git commit -m "$MESSAGE"
 git push
-
+# Deschide browserul cu adresa specificata
 firefox https://github.com/mhcrnl/FirstBashScript
