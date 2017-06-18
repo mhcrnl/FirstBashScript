@@ -18,3 +18,5 @@ fi
 git add .
 git commit -m "$MESSAGE"
 git push
+
+firefox https://github.com/mhcrnl/FirstBashScript
