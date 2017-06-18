@@ -4,6 +4,9 @@
 # 
 # Commiting changes to git with one easy step.
 
+echo "Directorul curent este: "
+pwd
+
 check_passwords
 if [ $? == 1 ]; then exit; fi
 
@@ -14,7 +17,7 @@ if [[ $1 = "" ]];
   else
     MESSAGE="$DATE - $1"
 fi
-
+# Salveaza datele in GitHub
 git add .
 git commit -m "$MESSAGE"
 git push
